@@ -59,12 +59,12 @@ def file_or_directory(my_path: str):
 # 4. Să se scrie o funcție ce returnează o listă cu extensiile unice a fișierelor din directorul dat
 # ca argument la linia de comandă (nerecursiv). Lista trebuie să fie sortată crescător.
 
-def input_extensions_sorted():
-    directory = input("Please enter the path to a directory: ")
+def arg_extensions_sorted():
+    directory = sys.argv[1]
     directory.replace('\\', '\\\\')
     return extensions_sorted(directory)
 
-# print(input_extensions_sorted())
+# print(arg_extensions_sorted())
 
 
 # 5. Să se scrie o funcție care primește ca argumente două șiruri de caractere, target și to_search și returneaza
