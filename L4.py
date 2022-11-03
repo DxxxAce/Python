@@ -1,4 +1,5 @@
 import os
+import sys
 
 # 1. Să se scrie o funcție ce primeste un singur parametru, director, ce reprezintă calea către un director.
 # Funcția returnează o listă cu extensiile unice sortate crescator (in ordine alfabetica) a fișierelor din
